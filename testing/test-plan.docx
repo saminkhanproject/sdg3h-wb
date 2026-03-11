@@ -1,1 +1,17 @@
+Feature          Test Case         Steps        Expected Results
+
+Feature - Login
+Test Case - Valid Login
+Steps - 
+1. Enter Student ID
+2. Enter Password
+3. Click Login
+Expected Results - Student enters site
+
+Feature - Book Appointment
+Test Case - Student books a clinic appointment successfully
+Steps - 
+1. Select preferred Doctor
+2. Select preferred Date
+3. Confirm
 
