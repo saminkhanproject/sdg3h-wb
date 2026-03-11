@@ -1,1 +1,48 @@
+Functional Requirements are for students the doctors and the admin / management
 
+STUDENT functions
+
+Register an account
+Log into the system
+Reset password
+View available doctors
+Search doctors by specialization
+Check doctor availability
+Book appointments
+Reschedule appointments
+Cancel appointments
+View appointment details
+View appointment history
+Update profile information
+View medical records
+Receive appointment notifications and reminders
+
+DOC
+
+Log into the system
+View daily appointments
+View appointment details
+Review patient information
+Update appointment status
+Add consultation notes
+
+ADMIN
+
+Log into the system
+Manage student accounts
+Manage doctor accounts
+View doctor schedules
+View appointment list
+Generate appointment reports
+
+Now for the Non-functional ones
+
+The system must be user friendly and simple to use.
+
+The system must be able to grant secure access to the system by  student, doctor, admin
+
+The system ought to ensure that appointments are obtained fast.
+
+The data of the user should be stored safely by the system.
+
+The system is supposed to be available via web browsers or mobiles.
