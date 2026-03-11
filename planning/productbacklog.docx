@@ -1,1 +1,19 @@
+following agile development method 
 
+Product Backlog - Taylors Uni smart clinic.
+
+ID | User Story | Priority
+1 | I am a student and I would like to open an account to use the clinic system  HIGH
+2 | As a student I want to be able to log in to the system so that I am able to manage my appointments.  HIGH
+3 As a student, I would like to see doctor available so that I could make a doctor choice.   HIGH
+4 | As a student, I desire to find doctors according to the specialization to locate the correct doctor.   MEDIUM
+5 | I would like to check the availability of doctors as a student to select an appropriate time to visit the doctor.  HIGH
+6 It is my desire as a student to take appointment and see the doctor.  HIGH
+7 | As a student, I would like to book a new appointment using the ability to change the situation with my appointment.   MEDIUM
+8| As a student, I would wish to take off a booking to clear an already existing booking.   MEDIUM
+9 | As a student, I would like to see the history of appointments to be able to find out past visits to clinics.  LOW
+10 | As a doctor, I would prefer considering my appointments everyday so that would mean I am aware of my consultation timetable.   HIGH
+11 I want to append consultation notes as a doctor and get the records about the patients updated.   MEDIUM
+12 | As an administration member, I would control the student and doctor accounts to ensure that the system is well organized.   MEDIUM
+13 | As an admin, I would prefer to see lists of appointments in order to trace the activity of the clinic.   MEDIUM
+14 | As an adminr, I would like to produce appointment reports in order to analyze clinic information.   LOW
