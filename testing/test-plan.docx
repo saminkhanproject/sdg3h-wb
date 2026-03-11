@@ -1,7 +1,12 @@
 Feature          Test Case         Steps        Expected Results
 
 Feature - Register Account
-Test Case - 
+Test Case - Student enters valid details and submits registration
+Steps -
+1. Open the system registration page
+2. Enter student details
+3. Register
+Expected Result - account created
 
 Feature - Login
 Test Case - Valid Login
@@ -17,4 +22,127 @@ Steps -
 1. Select preferred Doctor
 2. Select preferred Date
 3. Confirm
+Expected Result - account created
+
+Feature - Reschedule Appointment
+Test Case - Student reschedules an existing appointment
+
+Steps -
+
+1. Log into the system
+2. Open My Appointments
+3. Select an existing appointment
+4. Choose new available time slot
+5. Reschedule
+
+Expected Result - Appointment updated with new time slot
+
+Feature - Cancel Appointment
+Test Case - Student cancels an appointment
+
+Steps -
+
+1. Log into the system
+2. Open My Appointments
+3. Select appointment
+4. Click Cancel Appointment
+
+Expected Result - Appointment removed from system
+
+Feature - View Appointment History
+Test Case - Student views previous appointments
+
+Steps -
+
+1. Log into the system
+2. Navigate to Appointment History
+3. View previous appointments
+
+Expected Result - System displays past appointments
+
+Feature - Update Profile
+Test Case - Student updates profile information
+
+Steps -
+
+1. Log into the system
+2. Open Profile Settings
+3. Edit personal information
+4. Click Save
+
+Expected Result - Profile updated successfully
+
+Feature - Doctor Login
+Test Case - Doctor logs into the system
+
+Steps -
+
+1. Open doctor login page
+2. Enter doctor username
+3. Enter password
+4. Click Login
+
+Expected Result - Doctor dashboard opens successfully
+
+Feature - View Daily Appointments
+Test Case - Doctor views list of daily appointments
+
+Steps -
+
+1. Log into doctor dashboard
+2. Open Daily Appointments section
+3. Select today's date
+
+Expected Result - List of today's appointments displayed
+
+Feature - Add Consultation Notes
+Test Case - Doctor adds notes to patient record
+
+Steps -
+
+1. Log into doctor dashboard
+2. Select patient appointment
+3. Enter consultation notes
+4. Click Save
+
+Expected Result - Consultation notes saved successfully
+
+Feature - Admin Login
+Test Case - Admin logs into system dashboard
+
+Steps -
+
+1. Open admin login page
+2. Enter admin username
+3. Enter admin password
+4. Click Login
+
+Expected Result - Admin dashboard opens successfully
+
+Feature - Manage Student Accounts
+Test Case - Admin adds or edits student accounts
+
+Steps -
+
+1. Log into admin dashboard
+2. Navigate to Student Accounts
+3. Add or edit student information
+4. Click Save
+
+Expected Result - Student account updated successfully
+
+Feature - Generate Appointment Report
+Test Case - Admin generates appointment report
+
+Steps -
+
+1. Log into admin dashboard
+2. Open Appointment List
+3. Click Generate Report
+
+Expected Result - Appointment report generated successfully
+
+
+
+
 
