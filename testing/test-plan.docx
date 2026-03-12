@@ -1,7 +1,7 @@
-Feature          Test Case         Steps        Expected Results
-
 Feature - Register Account
+
 Test Case - Student enters valid details and submits registration
+
 Steps -
 1. Open the system registration page
 2. Enter student details
@@ -9,59 +9,68 @@ Steps -
 Expected Result - account created
 
 Feature - Login
+
 Test Case - Valid Login
+
 Steps - 
+
 1. Enter Student ID
 2. Enter Password
 3. Click Login
+
 Expected Results - Student enters site
 
 Feature - Book Appointment
+
 Test Case - Student books a clinic appointment successfully
+
 Steps - 
 1. Select preferred Doctor
 2. Select preferred Date
 3. Confirm
+
 Expected Result - account created
 
 Feature - Reschedule Appointment
+
 Test Case - Student reschedules an existing appointment
 
 Steps -
 
 1. Log into the system
 2. Open My Appointments
-3. Select an existing appointment
-4. Choose new available time slot
-5. Reschedule
+3. Selecting existing appointment
+4. Choose new time slot
+5. Reschedule time
 
-Expected Result - Appointment updated with new time slot
+Expected Result - Appointment updated with new and available time
 
 Feature - Cancel Appointment
-Test Case - Student cancels an appointment
+
+Test Case - Student cancels appointment
 
 Steps -
 
-1. Log into the system
-2. Open My Appointments
-3. Select appointment
+1. Log into system
+2. Open Appointments
+3. Select appointment ( which one is needed)
 4. Click Cancel Appointment
 
-Expected Result - Appointment removed from system
+Expected Result - Appointment removed 
 
 Feature - View Appointment History
 Test Case - Student views previous appointments
 
-Steps -
+Steps 
 
-1. Log into the system
-2. Navigate to Appointment History
+1. Log in 
+2. Find Appointment History
 3. View previous appointments
 
 Expected Result - System displays past appointments
 
 Feature - Update Profile
-Test Case - Student updates profile information
+Test Case - Student updates profile info
 
 Steps -
 
@@ -91,11 +100,12 @@ Steps -
 
 1. Log into doctor dashboard
 2. Open Daily Appointments section
-3. Select today's date
+3. Select todays date
 
-Expected Result - List of today's appointments displayed
+Expected Result - List of todays or the day that is now appointments displayed
 
 Feature - Add Consultation Notes
+
 Test Case - Doctor adds notes to patient record
 
 Steps -
@@ -108,6 +118,7 @@ Steps -
 Expected Result - Consultation notes saved successfully
 
 Feature - Admin Login
+
 Test Case - Admin logs into system dashboard
 
 Steps -
@@ -120,6 +131,7 @@ Steps -
 Expected Result - Admin dashboard opens successfully
 
 Feature - Manage Student Accounts
+
 Test Case - Admin adds or edits student accounts
 
 Steps -
@@ -132,6 +144,7 @@ Steps -
 Expected Result - Student account updated successfully
 
 Feature - Generate Appointment Report
+
 Test Case - Admin generates appointment report
 
 Steps -
@@ -140,9 +153,4 @@ Steps -
 2. Open Appointment List
 3. Click Generate Report
 
-Expected Result - Appointment report generated successfully
-
-
-
-
-
+Expected Result - Appointment report generated
